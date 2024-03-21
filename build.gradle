@@ -5,6 +5,13 @@ plugins {
 
 group = 'issues_git'
 version = '1.0-SNAPSHOT'
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
 
 allure {
     report {
